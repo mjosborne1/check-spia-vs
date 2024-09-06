@@ -57,7 +57,7 @@ def get_spia_valueset():
     codes = evaluate(data,"expansion.contains")
     return codes
 
-def process_refset_file(infile,outfile):
+def process_refset_file(outfile):
     lines = []
     cnt=0
     max_displays=1
@@ -94,5 +94,5 @@ def process_refset_file(infile,outfile):
     # End 
     print(f'...{cnt} rows written to {outfile}')
 
-def run_main(infile,outfile):
-    process_refset_file(infile,outfile)
+def run_main(outfile):
+    process_refset_file(outfile)
