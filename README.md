@@ -9,6 +9,8 @@
    * `source env/bin/activate`
 
 ### Run the script
+    `python main.py -o OUTFILE`
+    
     `usage: main.py [-h] [-o OUTFILE]
 
     options:
